@@ -5,7 +5,7 @@ Spring OAuth2 application that generates and revoke tokens in the database. This
 
 *`/oauth/token?grant_type=client_credentials&client_id=[clientId]&client_secret=[clientSecret]`*
 
-Sample Usage:
+Sample usage:
   
     localhost:8080/oauth2/oauth/token?grant_type=client_credentials&client_id=admin@test.com
                                                                       &client_secret=admin123
@@ -14,7 +14,12 @@ Sample Usage:
 
 *`/rest/api/revoke_token`*
 
-Sample Usage:
+Sample usage:
 
     * set Authorization Header: Bearer <accessToken>
     localhost:8080/oauth2/rest/api/revoke_token
+
+Your custom API:
+  
+    * set Authorization Header: Bearer <accessToken>
+    localhost:8080/oauth2/rest/api/customapi  
