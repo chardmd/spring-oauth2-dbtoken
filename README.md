@@ -1,5 +1,5 @@
 # spring-oauth2-dbtoken
-Spring OAuth2 application that generates and revoke tokens in the database. This module protects your REST API by implementing token-based authentication.
+Spring OAuth2 application that generates and revoke tokens in the database. This module protects your REST API with the help of token-based authentication.
 
 <b>Request a token:</b>
 
