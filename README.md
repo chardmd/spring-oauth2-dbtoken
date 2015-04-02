@@ -19,7 +19,7 @@ Sample usage:
     * set Authorization Header: Bearer <accessToken>
     localhost:8080/oauth2/rest/api/revoke_token
 
-Your custom API:
+<b>Your custom API:</b>
   
     * set Authorization Header: Bearer <accessToken>
     localhost:8080/oauth2/rest/api/customapi  
