@@ -13,7 +13,7 @@ import com.google.gson.JsonObject;
 public class YourCustomController {
 	
 	@RequestMapping(value = "/rest/api/customapi", method = RequestMethod.POST, produces="application/json; charset=utf-8")
-	public @ResponseBody String invalidateToken(HttpServletRequest req, HttpServletResponse res) {
+	public @ResponseBody String invalidateToken(HttpServletRequest req, HttpServletResponse res) throws Exception {
 			
 			JsonObject response = new JsonObject();
 			response.addProperty("success", true);
